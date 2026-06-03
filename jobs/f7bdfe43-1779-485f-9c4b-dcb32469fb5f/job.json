@@ -1,0 +1,48 @@
+{
+  "id": "f7bdfe43-1779-485f-9c4b-dcb32469fb5f",
+  "name": "Oracle_Oralce_test1",
+  "pipeline_id": "",
+  "type": 11,
+  "source_connector": "oracle_src",
+  "destination_connector": "oracle_tgt",
+  "schedule": {
+    "enabled": false,
+    "cron": ""
+  },
+  "alerts": {
+    "send_email": false,
+    "email_to": "",
+    "email_error_only": false
+  },
+  "properties": {
+    "enable_parallel_processing": false,
+    "worker_pool": 2,
+    "verbosity": 2,
+    "destination_schema": "C##SCHEMA2",
+    "automatic_job_retry": true
+  },
+  "replicate_options": {
+    "replicate_start_date": null,
+    "replicate_interval": 180,
+    "replicate_interval_unit": "days",
+    "snapshot_size": "1000000",
+    "skip_snapshot": "false",
+    "alter_schema": true,
+    "drop_table": false,
+    "truncate_table_data": false,
+    "table_name_prefix": "",
+    "table_name_suffix": "",
+    "continue_on_error": true,
+    "deletion_behavior": "SoftDelete",
+    "insert_mode": "FilePerBatch",
+    "auto_truncate_Strings": true,
+    "use_gmt_datetime": false,
+    "command_timeout": 300,
+    "additional_options": null
+  },
+  "events": {
+    "pre_job": "",
+    "post_job": ""
+  },
+  "labels": []
+}

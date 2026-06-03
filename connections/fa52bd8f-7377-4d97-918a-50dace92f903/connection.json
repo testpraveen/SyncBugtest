@@ -1,0 +1,24 @@
+{
+  "id": "fa52bd8f-7377-4d97-918a-50dace92f903",
+  "display_name": "Oracle_SRC",
+  "name": "oracle_src",
+  "connector": {
+    "name": "Oracle",
+    "version": "latest"
+  },
+  "properties": {
+    "Server": "172.21.169.145",
+    "Password": "SECURE:tOISn5vkT/smy7GXmO1cM9cr3wPJkDT0gtoqK/aKbvM4Jpe18G7W5WVo5LyXLjAf1PE3yZcTOzoNXQ==",
+    "Port": "1521",
+    "Service": "ORACLEPDB",
+    "ConnectionType": "Service Name",
+    "User": "C##schema1"
+  },
+  "labels": [],
+  "settings": {
+    "verbosity": 0,
+    "use_cdata_callback_url": 0,
+    "metadata_refresh_interval": 3600,
+    "use_sync_proxy": 0
+  }
+}

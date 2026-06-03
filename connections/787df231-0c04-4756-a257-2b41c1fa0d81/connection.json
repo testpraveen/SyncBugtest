@@ -1,0 +1,17 @@
+{
+  "id": "787df231-0c04-4756-a257-2b41c1fa0d81",
+  "display_name": "OracleCData",
+  "name": "oraclecdata",
+  "connector": {
+    "name": "CData Oracle",
+    "version": "latest"
+  },
+  "properties": {},
+  "labels": [],
+  "settings": {
+    "verbosity": 0,
+    "use_cdata_callback_url": 0,
+    "metadata_refresh_interval": 3600,
+    "use_sync_proxy": 1
+  }
+}

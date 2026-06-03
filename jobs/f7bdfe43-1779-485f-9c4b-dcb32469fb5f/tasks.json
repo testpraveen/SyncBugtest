@@ -1,0 +1,16 @@
+{
+  "tasks": [
+    {
+      "id": 982211362644168705,
+      "job_id": "f7bdfe43-1779-485f-9c4b-dcb32469fb5f",
+      "query": "REPLICATE [EMPLOYEES_PK] SELECT * FROM [C##SCHEMA1].[EMPLOYEES_PK]",
+      "is_active": true
+    },
+    {
+      "id": 982516558981107713,
+      "job_id": "f7bdfe43-1779-485f-9c4b-dcb32469fb5f",
+      "query": "REPLICATE [ORDERS_DEMO] WITH HistoryMode = 'true' SELECT * FROM [C##SCHEMA1].[ORDERS_DEMO]",
+      "is_active": true
+    }
+  ]
+}

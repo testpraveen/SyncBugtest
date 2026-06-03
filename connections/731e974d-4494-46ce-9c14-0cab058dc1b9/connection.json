@@ -1,0 +1,25 @@
+{
+  "id": "731e974d-4494-46ce-9c14-0cab058dc1b9",
+  "display_name": "Oracle_TGT",
+  "name": "oracle_tgt",
+  "connector": {
+    "name": "Oracle",
+    "version": "latest"
+  },
+  "properties": {
+    "Server": "172.21.169.145",
+    "Password": "SECURE:Q1onb4+rByUJm4DBWgVWN8Wwg3whygMb6COZNMDZWH055mDnITrpI/x4aSJ6DO1cNBWkmZA5/MmPEA==",
+    "DowncastNumbers": "True",
+    "Port": "1521",
+    "Service": "ORACLEPDB",
+    "ConnectionType": "Service Name",
+    "User": "C##schema2"
+  },
+  "labels": [],
+  "settings": {
+    "verbosity": 0,
+    "use_cdata_callback_url": 0,
+    "metadata_refresh_interval": 3600,
+    "use_sync_proxy": 0
+  }
+}

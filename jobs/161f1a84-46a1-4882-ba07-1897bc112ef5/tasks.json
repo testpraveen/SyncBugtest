@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "id": 981802675890950145,
+      "job_id": "161f1a84-46a1-4882-ba07-1897bc112ef5",
+      "query": "REPLICATE [synctest].[TABLE3M] WITH enableparallelreadpartitioning = 'false', IncrementalCheckColumns = 'CREATED_AT' SELECT ID, CURRENT_TIMESTAMP AS [LOAD_TIMESTAMP] FROM [C##SCHEMA1].[TABLE3M]",
+      "is_active": true
+    }
+  ]
+}

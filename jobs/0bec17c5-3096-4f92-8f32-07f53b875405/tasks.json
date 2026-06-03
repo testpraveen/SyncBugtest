@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "id": 981843068615528449,
+      "job_id": "0bec17c5-3096-4f92-8f32-07f53b875405",
+      "query": "REPLICATE [EMPLOYEE_DOCUMENTS] WITH SkipSnapshot = 'false' SELECT * FROM [C##SCHEMA1].[EMPLOYEE_DOCUMENTS]",
+      "is_active": true
+    }
+  ]
+}
