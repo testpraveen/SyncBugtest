@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "id": 986888940780916737,
+      "job_id": "8688128f-020f-452e-8f12-1432528ff9ed",
+      "query": "REPLICATE [synctest].[SPITQT3] ([SPCODE] string, [SPCONO] decimal, [SPITCD] string, [SPWHLO] string, PRIMARY KEY([SPCODE], [SPCONO], [SPITCD], [SPWHLO])) WITH enableparallelreadpartitioning = 'false', DeletionBehavior = 'HardDelete', stringtrimmode = 'Both', DropTable = 'false' SELECT * FROM [DAVY1].[SPITQT]",
+      "is_active": true
+    }
+  ]
+}
